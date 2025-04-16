@@ -11,5 +11,6 @@ public class AppTest {
     public void testApp() {
         App app = new App();
         assertEquals("Hello World!", app.getGreeting());
+        System.out.println("Hello World!");
     }
 }
